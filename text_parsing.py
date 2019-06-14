@@ -57,7 +57,7 @@ def get_input_files(directory='raw_data'):
         files.append(fullpath)
     return files
 
-def get_sources_from_file(filename, field='source'):
+def get_text_from_file(filename, field='source'):
     """Given a file name, it gets all the (source) text from the file"""
     root = ET.parse(filename).getroot() 
     trans_units = root.findall('.//{urn:oasis:names:tc:xliff:document:1.2}trans-unit')
