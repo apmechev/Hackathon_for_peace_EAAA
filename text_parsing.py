@@ -23,9 +23,9 @@ def get_text_from_transunit(trans_unit, field):
     """Gets all the text in the translation unit tag, and concatenates it"""
     tag = '{{urn:oasis:names:tc:xliff:document:1.2}}{}'.format(field)
     sources = trans_unit.find(tag)
-    if len(sources)<1:
+    if not sources or len(sources)<1:
        return "" 
-    source_texts = trans_unit.find(tag).findall('{urn:oasis:names:tc:xliff:document:1.2}g')
+    source_texts = trans_unit.find(tag).findall('.//{urn:oasis:names:tc:xliff:document:1.2}g')
     full_text = ""
     if len(source_texts)<1:
         return ""
@@ -57,17 +57,22 @@ def get_input_files(directory='raw_data'):
         files.append(fullpath)
     return files
 
-def get_sources_from_file(filename, get_field='source'):
+def get_sources_from_file(filename, field='source'):
     """Given a file name, it gets all the (source) text from the file"""
     root = ET.parse(filename).getroot() 
     trans_units = root.findall('.//{urn:oasis:names:tc:xliff:document:1.2}trans-unit')
     text=""
     for tu in trans_units:
         if tu: 
-            text+= get_text_from_transunit(tu, get_field)
+            text+= get_text_from_transunit(tu, field)
     return text
 
 
+#Example usage:
+#
+#for file in files: 
+#    text = get_sources_from_file(file, field='source') 
+#    language_dictionary= dictionary_count(text, language_dictionary) 
 
 
 
