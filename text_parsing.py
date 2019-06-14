@@ -4,6 +4,12 @@ import xml.etree.ElementTree as ET
 from langdetect.lang_detect_exception import LangDetectException      
 
 
+def innertext(node):
+    """From
+    https://stackoverflow.com/questions/49783799/how-to-get-all-text-inside-xml-tags"""
+    t = ""
+    return " ".join(node.itertext())
+
 
 def dictionary_count(text, dictionary={}): 
     """reads an XML element, gets the text, detects the  language
@@ -25,24 +31,17 @@ def get_text_from_transunit(trans_unit, field):
     sources = trans_unit.find(tag)
     if sources==None:
        return "" 
-    source_texts = trans_unit.find(tag).findall('.//{urn:oasis:names:tc:xliff:document:1.2}g')
-    if source_texts==[]:
-        text = trans_unit.find(tag).text or ""
-        if isinstance(text,str) and text!="":
-            return text
-        else:
-            texts = trans_unit.find(tag).getchildren()
-            if texts!=[]:
-                return trans_unit.find(tag).getchildren()[0].text or ""
-            return ""
-    full_text = ""
-    if len(source_texts)<1:
-        return ""
-    for text in source_texts:
-        content = text.text
-        if isinstance(content, str):
-            full_text+=content
-    return full_text
+    source_texts = innertext(sources)
+    return source_texts
+#    return source_texts
+#    full_text = ""
+#    if len(source_texts)<1:
+#        return ""
+#    for text in source_texts:
+#        content = text.text
+#        if isinstance(content, str):
+#            full_text+=content
+#    return full_text
 
 def add_language_from_transunit(trans_unit, dictionary={}):
     """For each trans_unit, it gets the text and appends to the dictionary of
