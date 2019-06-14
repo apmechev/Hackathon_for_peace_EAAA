@@ -23,9 +23,18 @@ def get_text_from_transunit(trans_unit, field):
     """Gets all the text in the translation unit tag, and concatenates it"""
     tag = '{{urn:oasis:names:tc:xliff:document:1.2}}{}'.format(field)
     sources = trans_unit.find(tag)
-    if not sources or len(sources)<1:
+    if sources==None:
        return "" 
     source_texts = trans_unit.find(tag).findall('.//{urn:oasis:names:tc:xliff:document:1.2}g')
+    if source_texts==[]:
+        text = trans_unit.find(tag).text or ""
+        if isinstance(text,str) and text!="":
+            return text
+        else:
+            texts = trans_unit.find(tag).getchildren()
+            if texts!=[]:
+                return trans_unit.find(tag).getchildren()[0].text or ""
+            return ""
     full_text = ""
     if len(source_texts)<1:
         return ""
@@ -64,7 +73,7 @@ def get_text_from_file(filename, field='source'):
     text=""
     for tu in trans_units:
         if tu: 
-            text+= get_text_from_transunit(tu, field)
+            text= text+" "+get_text_from_transunit(tu, field).strip('\n\t')
     return text
 
 
