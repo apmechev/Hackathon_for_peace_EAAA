@@ -22,7 +22,7 @@ def get_lemma2(word):
 en_stop = set(nltk.corpus.stopwords.words('english'))
 parser = English() 
 
-eng_only_files = pickle.load(open('english_only_files.pkl','rb'))
+eng_only_files = pickle.load(open('pickles/english_only_files.pkl','rb'))
 eng_only_files=[i.strip('.doc.sdlxliff').replace('raw_data/','data_products/extracted/')+".txt" for i in eng_only_files]
 
 
@@ -93,7 +93,7 @@ def predict_topic_from_text(new_doc,  dictionary_file='dictionary.gensim',
     
 
 #Loading corpus:
-# corpus=pickle.load(open('corpus.pkl','rb'))
+# corpus=pickle.load(open('pickles/corpus.pkl','rb'))
 # Loading dictionary:
 # dictionary = Dictionary.load('dictionary.gensim')
 # downloading text data:
@@ -101,5 +101,5 @@ def visualize_model():
     import pyLDAvis.gensim
     import pyLDAvis
     pyLDAvis.enable_notebook()
-    vis = pickle.load(open('firs_finished_vis.pkl','rb'))
+    vis = pickle.load(open('pickles/firs_finished_vis.pkl','rb'))
     pyLDAvis.show(vis)
