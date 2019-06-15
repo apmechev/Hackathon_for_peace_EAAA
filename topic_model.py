@@ -68,14 +68,27 @@ def prepare_text_for_lda(text):
     return tokens 
 
 
-def predict_topics(filename, dictionary_file='dictionary.gensim', model='model30.gensim'):
-    ldamodel = gensim.models.ldamodel.LdaModel.load(model)  
+def predict_topics_from_file(filename, dictionary_file='dictionary.gensim', model='model30.gensim'):
     new_doc = open(filename,'r').read()
+    predict_topic_from_text(new_doc, dictionary_file=dictionary_file,
+            model=model)
+
+def predict_topic_from_text(new_doc,  dictionary_file='dictionary.gensim',
+        model='model30.gensim', printout=False):
+    ldamodel = gensim.models.ldamodel.LdaModel.load(model)  
     new_doc = prepare_text_for_lda(new_doc)
     dictionary=Dictionary.load( dictionary_file)
     new_doc_bow = dictionary.doc2bow(new_doc)
-    print(ldamodel.get_document_topics(new_doc_bow))
-    for line in ldamodel.show_topics(30):
-        print(line)
+    doc_topics = sorted(ldamodel.get_document_topics(new_doc_bow),key=lambda x:x[1], reverse=True)
+    all_topics = ldamodel.show_topics(30)
+    thresh_topics=[]
+    for topic in doc_topics:
+        if topic[1]>0.1:
+            thresh_topics.append({'topic #':all_topics[topic[0]][0],"topic probability":
+                topic[1],'topic hot words': all_topics[topic[0]][1]})
+    if printout:
+        print(thresh_topics)
+    return thresh_topics
+    
 
 
