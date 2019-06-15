@@ -1,14 +1,8 @@
-from Hackathon_for_peace_EAAA.text_parsing import get_text_from_file
+from text_parsing import get_text_from_file
 from gensim.summarization.summarizer import summarize
 
-fname='sample_eng'
-with open(fname, 'r') as myfile:
-      text = myfile.read()
-
-
+#get sinle file
 text = get_text_from_file('sample_long.sdlxliff')
-
-
 
 try:
     # word_count : provides summary of n words
@@ -18,3 +12,4 @@ try:
     print('character length is:', len(sum), '\n ######## \n', sum)
 except:
     print(text)
+
