@@ -2,65 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdbb2b2a-e2e0-46c3-a474-ae5923af1edf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/css/templatemo-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/img/arrow-down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/img/check-mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/img/notification-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/img/notification-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/img/notification-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/img/product-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/external/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_glass_75_d0e5f5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_glass_85_dfeffc_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_217bc0_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_469bdd_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_6da8d5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_f9bd01_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.structure.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.structure.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/js/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/js/tooplate-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/link_crysis_doc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/css/templatemo-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/img/arrow-down.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/img/arrow-down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/img/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/img/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/img/check-mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/img/check-mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/img/notification-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/img/notification-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/img/notification-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/img/notification-02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/img/notification-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/img/notification-03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/img/product-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/img/product-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/AUTHORS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/AUTHORS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/external/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/external/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_glass_75_d0e5f5_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-bg_glass_75_d0e5f5_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_glass_85_dfeffc_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-bg_glass_85_dfeffc_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_217bc0_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-icons_217bc0_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_2e83ff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_469bdd_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-icons_469bdd_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_6da8d5_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-icons_6da8d5_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_d8e7f3_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/images/ui-icons_f9bd01_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/images/ui-icons_f9bd01_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.structure.css" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.structure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.structure.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.structure.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/jquery-ui.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/jquery-ui.theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/jquery-ui-datepicker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/jquery-ui-datepicker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/js/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/js/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/js/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/js/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea3-django/ea3/templates/js/tooplate-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea3-django/ea3/templates/pages/js/tooplate-scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_disaster_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_disaster_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,80 +54,28 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/hackathon_for_peace_EAAA$scrape_web_data.coverage" NAME="scrape_web_data Coverage Results" MODIFIED="1560616657531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hackathon_for_peace_EAAA$link_crysis_doc.coverage" NAME="link_crysis_doc Coverage Results" MODIFIED="1560633950643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hackathon_for_peace_EAAA$gensim_summarize.coverage" NAME="gensim_summarize Coverage Results" MODIFIED="1560594013613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/summarize" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrape_web_data.py">
+        <entry file="file://$PROJECT_DIR$/get_disaster_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="59" column="34" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="-103">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template_html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" selection-end-line="404" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/403_csrf.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/home.html">
+        <entry file="file://$PROJECT_DIR$/link_crysis_doc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27489">
-              <caret line="1619" selection-start-line="1619" selection-end-line="1619" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text_parsing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -179,6 +111,9 @@
         <option value="$PROJECT_DIR$/template_html/index.html" />
         <option value="$PROJECT_DIR$/template_html/js/tooplate-scripts.js" />
         <option value="$PROJECT_DIR$/ea3-django/ea3/templates/pages/home.html" />
+        <option value="$PROJECT_DIR$/template_html/link_crysis_doc.py" />
+        <option value="$PROJECT_DIR$/get_disaster_data.py" />
+        <option value="$PROJECT_DIR$/link_crysis_doc.py" />
       </list>
     </option>
   </component>
@@ -203,40 +138,6 @@
             <path>
               <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3-django" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3-django" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3-django" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3-django" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3-django" type="462c0819:PsiDirectoryNode" />
-              <item name="ea3" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
               <item name="template_html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -257,6 +158,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aaron.de.rybel\PycharmProjects\hackathon_for_peace_EAAA" />
+      <recent name="C:\Users\aaron.de.rybel\PycharmProjects\hackathon_for_peace_EAAA\ea3-django\ea3\templates\pages" />
       <recent name="C:\Users\aaron.de.rybel\PycharmProjects\hackathon_for_peace_EAAA\ea3-django\ea3\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -275,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.scrape_web_data">
+  <component name="RunManager" selected="Python.link_crysis_doc">
     <configuration name="gensim_summarize" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hackathon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,6 +193,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/summarize/gensim_summarize.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="link_crysis_doc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hackathon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/link_crysis_doc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,6 +247,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.link_crysis_doc" />
         <item itemvalue="Python.scrape_web_data" />
         <item itemvalue="Python.gensim_summarize" />
       </list>
@@ -340,12 +266,12 @@
       <workItem from="1560592290946" duration="101000" />
       <workItem from="1560592547861" duration="2637000" />
       <workItem from="1560597073840" duration="15511000" />
-      <workItem from="1560622668715" duration="3989000" />
+      <workItem from="1560622668715" duration="6732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22238000" />
+    <option name="totallyTimeSpent" value="24981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -358,15 +284,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -404,6 +329,11 @@
           <url>file://$PROJECT_DIR$/scrape_web_data.py</url>
           <line>58</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/link_crysis_doc.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -473,9 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_disaster_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/summarize/gensim_summarize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -523,33 +450,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template_html/js/tooplate-scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/403_csrf.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/template_html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" selection-end-line="404" selection-end-column="7" />
+          <caret selection-end-line="404" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/pages/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/pages/about.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ea3-django/ea3/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_html/accounts.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template_html/js/tooplate-scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_disaster_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link_crysis_doc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
