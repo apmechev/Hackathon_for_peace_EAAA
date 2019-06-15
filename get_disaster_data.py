@@ -14,6 +14,21 @@ def get_n_latest(n=20):
     return event_links
 
 
+def get_country(event_json): 
+    countries=[] 
+    for data in event_json.get('data'): 
+        for country in  data.get('fields').get('country'):  
+            countries.append(country.get('name'))  
+    return countries 
+                                                         
+def get_country_codes(event_json):
+    codes=[]
+    for data in event_json.get('data'):
+        for country in  data.get('fields').get('country'):
+            codes.append(country.get('iso3'))
+    return codes
+
+
 def get_name(event_json): 
     event_json.get('data')[0].get('fields').get('name')                                                      
 
@@ -70,6 +85,7 @@ def get_event_data(event_href):
     event_json = r.json()
     event_data={}
     event_data['countries']=get_country(event_json)
+    event_data['iso3_codes']=get_country_codes(event_json)
     event_data['name']=get_name(event_json)
     event_data['description']=get_description(event_json)
     event_data['status']=get_status(event_json)
