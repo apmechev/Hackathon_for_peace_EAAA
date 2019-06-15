@@ -92,4 +92,14 @@ def predict_topic_from_text(new_doc,  dictionary_file='dictionary.gensim',
     return thresh_topics
     
 
-
+#Loading corpus:
+# corpus=pickle.load(open('corpus.pkl','rb'))
+# Loading dictionary:
+# dictionary = Dictionary.load('dictionary.gensim')
+# downloading text data:
+def visualize_model():
+    import pyLDAvis.gensim
+    import pyLDAvis
+    pyLDAvis.enable_notebook()
+    vis = pickle.load(open('firs_finished_vis.pkl','rb'))
+    pyLDAvis.show(vis)
