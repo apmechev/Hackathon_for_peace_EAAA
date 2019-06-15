@@ -68,13 +68,14 @@ def prepare_text_for_lda(text):
     return tokens 
 
 
-def predict_topics_from_file(filename, dictionary_file='dictionary.gensim', model='model30.gensim'):
+def predict_topics_from_file(filename, dictionary_file='dictionary.gensim',
+        model='models/model30.gensim'):
     new_doc = open(filename,'r').read()
     predict_topic_from_text(new_doc, dictionary_file=dictionary_file,
             model=model)
 
 def predict_topic_from_text(new_doc,  dictionary_file='dictionary.gensim',
-        model='model30.gensim', printout=False):
+        model='models/model30.gensim', printout=False):
     ldamodel = gensim.models.ldamodel.LdaModel.load(model)  
     new_doc = prepare_text_for_lda(new_doc)
     dictionary=Dictionary.load( dictionary_file)
