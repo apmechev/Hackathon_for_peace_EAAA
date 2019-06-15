@@ -1,5 +1,5 @@
 import requests
-
+import json
 APP_NAME= 'EA4'
 
 LATEST_EVENTS = "https://api.reliefweb.int/v1/disasters?appname={}&preset=latest".format(APP_NAME)
@@ -32,12 +32,13 @@ def get_country_codes(event_json):
 def get_name(event_json): 
     event_json.get('data')[0].get('fields').get('name')                                                      
 
-def get_country(event_json): 
-    countries=[] 
-    for data in event_json.get('data'): 
-        for country in  data.get('fields').get('country'):  
-            countries.append(country.get('name'))  
-    return countries 
+
+def get_country(event_json):
+    countries=[]
+    for data in event_json.get('data'):
+        for country in  data.get('fields').get('country'):
+            countries.append(country.get('name'))
+    return countries
                                                                                                              
 
 def get_name(event_json): 
