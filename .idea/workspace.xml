@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdbb2b2a-e2e0-46c3-a474-ae5923af1edf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/get_disaster_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_disaster_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link_crysis_doc.py" beforeDir="false" afterPath="$PROJECT_DIR$/link_crysis_doc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,16 +12,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/hackathon_for_peace_EAAA$scrape_web_data.coverage" NAME="scrape_web_data Coverage Results" MODIFIED="1560616657531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/hackathon_for_peace_EAAA$link_crysis_doc.coverage" NAME="link_crysis_doc Coverage Results" MODIFIED="1560634580941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/hackathon_for_peace_EAAA$link_crysis_doc.coverage" NAME="link_crysis_doc Coverage Results" MODIFIED="1560636266910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/hackathon_for_peace_EAAA$gensim_summarize.coverage" NAME="gensim_summarize Coverage Results" MODIFIED="1560594013613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/summarize" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_disaster_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="-1134">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -29,13 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/link_crysis_doc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="414">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/countrycodes.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -70,8 +78,8 @@
         <option value="$PROJECT_DIR$/template_html/js/tooplate-scripts.js" />
         <option value="$PROJECT_DIR$/ea3-django/ea3/templates/pages/home.html" />
         <option value="$PROJECT_DIR$/template_html/link_crysis_doc.py" />
-        <option value="$PROJECT_DIR$/link_crysis_doc.py" />
         <option value="$PROJECT_DIR$/get_disaster_data.py" />
+        <option value="$PROJECT_DIR$/link_crysis_doc.py" />
       </list>
     </option>
   </component>
@@ -92,11 +100,6 @@
             <path>
               <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackathon_for_peace_EAAA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackathon_for_peace_EAAA" type="462c0819:PsiDirectoryNode" />
-              <item name="template_html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -121,6 +124,7 @@
       <recent name="C:\Users\aaron.de.rybel\PycharmProjects\hackathon_for_peace_EAAA\ea3-django\ea3\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aaron.de.rybel\PycharmProjects\hackathon_for_peace_EAAA" />
       <recent name="C:\Users\aaron.de.rybel\PycharmProjects\hackathon_for_peace_EAAA\ea3-django\ea3\templates" />
     </key>
   </component>
@@ -224,12 +228,12 @@
       <workItem from="1560592290946" duration="101000" />
       <workItem from="1560592547861" duration="2637000" />
       <workItem from="1560597073840" duration="15511000" />
-      <workItem from="1560622668715" duration="6981000" />
+      <workItem from="1560622668715" duration="8984000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25230000" />
+    <option name="totallyTimeSpent" value="27233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,7 +246,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,8 +294,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/link_crysis_doc.py</url>
-          <line>9</line>
+          <line>32</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/link_crysis_doc.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -306,6 +314,32 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>for code in csvdf['Alpha3Code']:
+    if code == 'yem':
+        print(True)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for code in csvdf['Alpha3Code']:
+    if code == 'yem'
+        print(True)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>import pandas as pd
+dfpd.Dataframe(data)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>import pandas as pd
+pd.Dataframe(data)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>df.info()</expression-string>
         <language-id>Python</language-id>
@@ -329,26 +363,6 @@
       </expression>
       <expression>
         <expression-string>lang_box[3]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lang_box[2]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lang_box[1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lang_box[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>soup.find('azjeaizoej', attrs={'azaez':'zpeap'})</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -449,19 +463,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link_crysis_doc.py">
+    <entry file="file://$PROJECT_DIR$/get_disaster_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="-1134">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_disaster_data.py">
+    <entry file="file://$PROJECT_DIR$/countrycodes.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link_crysis_doc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="414">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
