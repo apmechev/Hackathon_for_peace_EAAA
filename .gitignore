@@ -1,6 +1,7 @@
 #raw data stuff
 #
 *.sdlxliff
+data_products/extracted/*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

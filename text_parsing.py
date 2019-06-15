@@ -54,11 +54,11 @@ def add_language_from_transunit(trans_unit, dictionary={}):
         return dictionary
 
 
-def get_input_files(directory='raw_data'):
+def get_input_files(directory='raw_data', suffix="sdlxliff"):
     """Get list of valid input files"""
     files=[]
     for filename in os.listdir(directory):
-        if "sdlxliff" not in filename:
+        if suffix not in filename:
             continue
         fullpath = "{}/{}".format(directory, filename)
         if not os.path.exists(fullpath) or not os.path.isfile(fullpath):
@@ -102,6 +102,15 @@ def get_num_words_from_file(filename,field='source'):
 #for file in files: 
 #    text = get_sources_from_file(file, field='source') 
 #    language_dictionary= dictionary_count(text, language_dictionary) 
+
+
+
+
+#for file in files:  
+#    if file not in longest_words.keys(): 
+#        longest_words[file]={}  
+#    longest_words[file]['source']=max(get_text_from_file(file,'source').replace('/',' ').split()+["a"], key=len) 
+#    longest_words[file]['target']=max(get_text_from_file(file,'target').replace('/',' ').split()+["a"], key=len) 
 
 
 
