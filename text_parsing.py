@@ -1,3 +1,4 @@
+import re
 from langdetect import detect 
 import os
 import xml.etree.ElementTree as ET
@@ -75,6 +76,26 @@ def get_text_from_file(filename, field='source'):
             text= text+" "+get_text_from_transunit(tu, field).strip('\n\t')
     return text
 
+def get_entry_lengths_from_file(filename,field='source'):
+    """Returns a list of the lengths of each translation unit in the file"""
+    root = ET.parse(filename).getroot()
+    trans_units = root.findall('.//{urn:oasis:names:tc:xliff:document:1.2}trans-unit')
+    lengths=[]
+    for tu in trans_units:
+        if tu:
+            lengths.append(len(get_text_from_transunit(tu,field).strip('\n\t')))
+    return lengths
+
+def get_num_words_from_file(filename,field='source'):
+    """returns a list of the number of words for each translation unit"""
+    root = ET.parse(filename).getroot()
+    trans_units = root.findall('.//{urn:oasis:names:tc:xliff:document:1.2}trans-unit')
+    words=[]
+    for tu in trans_units:
+        if tu:
+            text = get_text_from_transunit(tu,field).strip('\n\t')
+            words.append(len(re.findall(r'\w+', text)))
+    return words
 
 #Example usage:
 #
